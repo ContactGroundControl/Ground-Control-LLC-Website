@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Ground Control LLC",
   description: "Site Control & Land Acquisition for Energy Infrastructure",
@@ -6,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={{ margin: 0 }}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
