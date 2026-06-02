@@ -15,7 +15,7 @@
   --border: #2a2a26;
   --border-light: #3a3a34;
   --text: #e8e6df;
-  --muted: #7a7870;
+  --muted: #9e9c94;
   --accent: #c8b87a;
   --accent-dim: #8a7d50;
   --white: #f5f3ec;
@@ -29,7 +29,7 @@ body {
   background: var(--black);
   color: var(--text);
   font-family: 'DM Sans', sans-serif;
-  font-weight: 300;
+
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -338,7 +338,7 @@ nav {
 }
 
 .serviceDesc {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--muted);
   line-height: 1.65;
 }
@@ -393,7 +393,7 @@ nav {
 }
 
 .geoCopy {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: var(--muted);
   line-height: 1.8;
   display: flex;
@@ -471,7 +471,7 @@ nav {
 }
 
 .serveCopy {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: var(--muted);
   line-height: 1.8;
   display: flex;
@@ -517,7 +517,7 @@ nav {
 }
 
 .stepDesc {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: var(--muted);
   line-height: 1.6;
 }
@@ -545,7 +545,7 @@ nav {
 }
 
 .aboutBody {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: var(--muted);
   line-height: 1.9;
   display: flex;
@@ -596,7 +596,7 @@ nav {
 
 .contactIntro {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.8;
   margin-top: 1rem;
 }
