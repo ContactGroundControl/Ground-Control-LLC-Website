@@ -672,3 +672,179 @@ footer {
   font-family: 'DM Mono', monospace;
   letter-spacing: 0.06em;
 }
+
+/* ─── MOBILE ─── */
+
+@media (max-width: 768px) {
+
+  /* NAV */
+  nav {
+    padding: 1rem 1.5rem;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .navCta {
+    font-size: 0.65rem;
+    padding: 0.45rem 0.9rem;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 7rem 1.5rem 4rem;
+    min-height: 100svh;
+  }
+
+  .heroEyebrow {
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+  }
+
+  .heroH1 {
+    font-size: clamp(2.8rem, 12vw, 4.5rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .heroSub {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  .heroActions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .btnPrimary,
+  .btnGhost {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 1.5rem;
+  }
+
+  .heroSectors {
+    display: none;
+  }
+
+  /* STATS BAR */
+  .statsBar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stat {
+    padding: 1.5rem;
+  }
+
+  .stat:nth-child(2) {
+    border-right: none;
+  }
+
+  .stat:nth-child(3) {
+    border-top: 1px solid var(--border);
+  }
+
+  .statNum {
+    font-size: 2rem;
+  }
+
+  .statLabel {
+    font-size: 0.65rem;
+  }
+
+  /* SECTIONS */
+  .section {
+    padding: 4rem 1.5rem;
+  }
+
+  .sectionH2 {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  /* SERVICES */
+  .servicesGrid {
+    grid-template-columns: 1fr;
+    margin-top: 2.5rem;
+  }
+
+  /* TWO COLUMN — all two col layouts stack */
+  .twoCol {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  /* PROCESS */
+  .processSteps {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2.5rem;
+  }
+
+  /* ABOUT */
+  .aboutInner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .aboutYear {
+    font-size: 3.5rem;
+    margin-top: 0;
+  }
+
+  .aboutFact {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  /* CONTACT */
+  .contactInner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .contactBlock {
+    margin-top: 0;
+  }
+
+  /* FOOTER */
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1.5rem;
+  }
+
+  .footerMeta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+}
+
+/* ─── SMALL MOBILE (under 480px) ─── */
+
+@media (max-width: 480px) {
+
+  .statsBar {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .processSteps {
+    grid-template-columns: 1fr;
+  }
+
+  .heroH1 {
+    font-size: clamp(2.5rem, 13vw, 3.5rem);
+  }
+
+  .trackStats {
+    gap: 1.25rem;
+  }
+
+  .serviceCard {
+    padding: 1.75rem 1.25rem;
+  }
+}
