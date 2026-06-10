@@ -152,7 +152,7 @@ export default function RootLayout({ children }) {
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <a className="navCta" href="mailto:contact@groundcontrol-llc.com">
+          <a className="navCta" href="#contact">
             Get in Touch
           </a>
         </nav>
